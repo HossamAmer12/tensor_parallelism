@@ -4,7 +4,7 @@ Code accompanying the deep-dive [blog post on Tensor Parallelism](https://determ
 
 - MLP TP profiling code in `tp_profiling.py`
 
-To run:
+To run on 2 GPUs:
 `torchrun --nproc-per-node=2 tp.py`
 
 ## Sample Benchmark Results
