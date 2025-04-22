@@ -5,7 +5,7 @@ Code accompanying the deep-dive [blog post on Tensor Parallelism](https://determ
 - MLP TP profiling code in `tp_profiling.py`
 
 To run:
-torchrun --nproc-per-node=2 tp.py
+`torchrun --nproc-per-node=2 tp.py`
 
 ## Sample Benchmark Results
 
